@@ -3,7 +3,7 @@ import './Header.css'
 
 function Header() {
   return (
-      <h1 className="header-title">Империя матрасов</h1>
+      <h1 className="header-title">Emperor Mattress</h1>
   );
 }
 

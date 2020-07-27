@@ -20,7 +20,7 @@ class InfoForm extends React.Component {
     render(){
         if (this.state.submitted){
             return (
-                <p className="infoForm-text">Благодарим вас за подписку. Мы свяжемся с вами, когда царство комфорта откроется!</p>
+                <p className="infoForm-text">Thanks. When the kingdom of comfort opens, we'll be in touch!</p>
             )
         } else {
             return (
