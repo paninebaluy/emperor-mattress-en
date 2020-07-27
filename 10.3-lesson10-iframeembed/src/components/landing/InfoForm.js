@@ -25,10 +25,10 @@ class InfoForm extends React.Component {
         } else {
             return (
                 <div className="infoForm-container">
-                    <p className="infoForm-text">Заполните форму ниже, чтобы узнать об открытии «Империи матрасов» первыми.</p>
+                    <p className="infoForm-text">Sign up below and we'll let you know when we launch the next great mattress experience!</p>
                     <form onSubmit={this.handleSubmit} className="infoForm-form">
                         <input onChange={this.handleChange} className="infoForm-input" type="email" placeholder={"E-mail"}/>
-                        <button className="infoForm-button" type="submit">Удивите меня!</button>
+                        <button className="infoForm-button" type="submit">Amaze me!</button>
                     </form>
                 </div>
             )
